@@ -9,12 +9,11 @@ html {
 
 body {
   align-items: center;
-  background-color: #f6f8fa;
+  background-color: #f8e4fc;
   display: flex;
   height: 100%;
   justify-content: center;
 
-  /* System Fonts as used by GitHub */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -28,6 +27,7 @@ body {
 
 .form-title {
   margin-bottom: 8px;
+  color: blueviolet;
 }
 
 .form-input-group {
