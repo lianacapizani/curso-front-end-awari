@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Formulário de sugestões</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="form-wrapper">
+      <h2 class="form-title">Formulário de Sugestões</h2>
+      <form id="contact-form">
+        <div class="form-input-group">
+          <label for="name">Nome:</label><br />
+          <input type="text" id="name" name="name" required /><br />
+        </div>
+        <div class="form-input-group">
+          <label for="email">E-mail:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+        </div>
+        <div class="form-input-group">
+          <label for="assumto">Assunto:</label><br />
+          <input type="assunto" id="assunto" name="assunto" required /><br />
+        </div>
+        <div class="form-input-group">
+          <label for="message">Mensagem:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            required
+          ></textarea
+          ><br />
+        </div>
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+    <script type="text/javascript" src="scripts.js"></script>
+  </body>
+</html>
