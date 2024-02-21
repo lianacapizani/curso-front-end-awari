@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  background-color: whitesmoke;
+  /* MEDIA QUERIES : colocar condicionais no css *
+  EX: */
+  @media screen and (max-width: 600px) {
+    background-color: mediumturquoise;
+  }
+}
+
+/* *AJUDAR NA RESPONSIVIDADE* precisa ter um container pra poder rearranjar--
+e nesse container usa o display flex/ a forma que quer organizar
+{display: / 
+flex-direction:/flex-wrap: ou flex-flow: se quiser que quebre usa row-wrap-fica em linha e se nao couber na tela quebra
+justify-content: } */
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  font-size: 26px;
+  background-color: lightsteelblue;
+  text-align: center;
+  width: 180px;
+}
+
+a {
+  text-decoration: none;
+}
