@@ -1,3 +1,5 @@
 ATALHOS
 
 CMD + SHIFT + L - Seleciona todos as tags, arquivos elementos com mesmo nome
+SHIFT + OPTION + A - Comenta a linha onde está o cursor
+                    ou o que foi selecionado
